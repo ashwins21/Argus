@@ -1,0 +1,154 @@
+REM ***ACP PROD
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=AcpPROD;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=AcpProd;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+
+REM ***Apollo TEST
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=ApolloJets;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=ApolloJets;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+
+REM ***Apollo PROD
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=ApolloProduction;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=ApolloProduction;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+
+REM ***ChannelIslands PROD
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=ChannelIslands;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=ChannelIslands;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+
+REM ******** Cummins *******************************************************
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=Cummins;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=Cummins;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+
+REM ******** Cummins B *******************************************************
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=CumminsB;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=CumminsB;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+
+REM ******** DesertJet *******************************************************
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=DesertJet;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=DesertJet;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+
+REM ***DEMO
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=Demo;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=Demo;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+
+REM ***DPJ PROD
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=DpjPROD;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=DpjProd;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+
+REM ***Embraer PROD
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=embraerprod;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=embraerprod;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+
+REM ***Empire
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=EmpireProd;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=EmpireProd;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+
+REM ***Fairwind
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=FairwindProd;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=FairwindProd;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+
+REM ***Gogo
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=GogoProd;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=GogoProd;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+
+***Jet Select PROD
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=jetselectprod;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=jetselectprod;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+
+***Meridian PROD
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=MeridianProd;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=MeridianProd;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+
+***MGM PROD
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=MGMProd;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=MGMProd;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+
+***MGMPRODB
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=MGMPRODB;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=MGMPRODB;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+
+REM ***Omni
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=OmniProd;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+ msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=OmniProd;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+
+REM ****Paradise
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=ParadiseProd;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+ msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=ParadiseProd;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+
+REM ****PAX
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=PaxProd;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=PaxProd;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+
+REM **** PlaneSolutions Prod
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=PlaneSolutionsProd;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=PlaneSolutionsProd;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+
+
+REM ***Private Flite PROD
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=PrivateFliteProd;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=PrivateFlightProd;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+
+REM ***Reynolds PROD
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=reynoldsprod;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=reynoldsprod;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+
+REM ***Skyone/Privaira PROD
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodeReuse:true  /p:PublishProfile=skyoneprod;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodeReuse:true  /p:PublishProfile=PrivairaProd;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+
+REM ***STAjetsB
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=STAjetsB;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=STAjetsB;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+
+REM ***STAjetsPROD
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=STAjetsPROD;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=STAjetsPROD;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+
+REM *** Shearwater
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=ShearwaterProd;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=ShearwaterProd;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+
+
+REM *** Stellar
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=Stellar;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=Stellar;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+
+REM ***TIProd
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=TIProd;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=TIProd;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+
+REM ****Venture
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=VentureProd;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=VentureProd;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+
+REM ***VoloProd
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=VoloProd;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=VoloProd;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+
+REM ***WCAS Prod
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=WcasProd;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=WcasProd;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+
+REM ***Wheels Up Prod
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=WheelsUpProd;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodereuse:true /p:PublishProfile=WheelsUpProd;Configuration=Release;WarningLevel=1;VisualStudioVersion=14.0;DebugType=None
+
+
+REM ***PROD
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodeReuse:true  /p:PublishProfile=AvmosysProd;Configuration=Release;WarningLevel=0;VisualStudioVersion=14.0;DebugType=None;DebugSymbols=false
+msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodeReuse:true  /p:PublishProfile=AvmosysProd;Configuration=Release;WarningLevel=0;VisualStudioVersion=14.0;DebugType=None;DebugSymbols=false
+
+REM ***TEST
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodeReuse:true  /p:PublishProfile=avmosystest;Configuration=Release;WarningLevel=0;VisualStudioVersion=14.0;DebugType=None;DebugSymbols=false
+msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodeReuse:true  /p:PublishProfile=avmosystest;Configuration=Release;WarningLevel=0;VisualStudioVersion=14.0;DebugType=None;DebugSymbols=false
+
+REM ***DEV
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodeReuse:true  /p:PublishProfile=avmosysdev;Configuration=Release;WarningLevel=0;VisualStudioVersion=14.0;DebugType=None;DebugSymbols=false
+msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodeReuse:true  /p:PublishProfile=avmosysdev;Configuration=Release;WarningLevel=0;VisualStudioVersion=14.0;DebugType=None;DebugSymbols=false
+
+REM ***Trial
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodeReuse:true  /p:PublishProfile=trial;Configuration=Release;WarningLevel=0;VisualStudioVersion=14.0;DebugType=None
+msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodeReuse:true  /p:PublishProfile=trial;Configuration=Release;WarningLevel=0;VisualStudioVersion=14.0;DebugType=None
+
+REM ***STAGING
+msbuild C:\Projects\Avmosys\Avmosys.Web\Avmosys.Web.csproj /T:Package /verbosity:minimal /nodeReuse:true  /p:PublishProfile=avmosysstaging;Configuration=Release;WarningLevel=0;VisualStudioVersion=14.0;DebugType=None;DebugSymbols=false
+msbuild C:\Projects\Avmosys\Avmosys.Web.Api\Avmosys.Web.Api.csproj /T:Package /verbosity:minimal /nodeReuse:true  /p:PublishProfile=avmosysstaging;Configuration=Release;WarningLevel=0;VisualStudioVersion=14.0;DebugType=None;DebugSymbols=false
